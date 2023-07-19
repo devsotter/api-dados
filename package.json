@@ -2,10 +2,11 @@
   "name": "api-port",
   "version": "0.1.0",
   "private": true,
+  "node": "14.x",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node /src/pages/api/dados.js",
     "lint": "next lint"
   },
   "dependencies": {
